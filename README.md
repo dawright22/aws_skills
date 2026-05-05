@@ -11,27 +11,20 @@ Extends Git-Ape with **21 AWS skills** covering compute, storage, databases, net
 ### Option 1: Copilot Plugin Marketplace (Recommended)
 
 ```bash
-copilot plugin marketplace add dawright22/aws_skills
-copilot plugin install git-ape-aws-skills
-```
+# Add the aws_skills plugin from the marketplace
+/plugin marketplace add dawright22/aws_skills
 
-**Other `/plugin` CLI commands:**
+# Install it into your workspace
+/plugin install dawright22/aws_skills
 
-```bash
-# List installed plugins
+# Verify installation
 /plugin list
 
-# Show plugin details
-/plugin info git-ape-aws-skills
+# Update aws_skills to the latest version
+/plugin update dawright22/aws_skills
 
-# Update to latest version
-/plugin update git-ape-aws-skills
-
-# Search marketplace for plugins
-/plugin marketplace search aws
-
-# Remove a plugin
-/plugin uninstall git-ape-aws-skills
+# Remove aws_skills if no longer needed
+/plugin uninstall dawright22/aws_skills
 ```
 
 ### Option 2: Clone and Install
