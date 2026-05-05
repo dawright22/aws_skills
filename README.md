@@ -15,6 +15,25 @@ copilot plugin marketplace add dawright22/aws_skills
 copilot plugin install git-ape-aws-skills
 ```
 
+**Other `/plugin` CLI commands:**
+
+```bash
+# List installed plugins
+/plugin list
+
+# Show plugin details
+/plugin info git-ape-aws-skills
+
+# Update to latest version
+/plugin update git-ape-aws-skills
+
+# Search marketplace for plugins
+/plugin marketplace search aws
+
+# Remove a plugin
+/plugin uninstall git-ape-aws-skills
+```
+
 ### Option 2: Clone and Install
 
 ```bash
