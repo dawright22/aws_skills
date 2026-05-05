@@ -1,0 +1,37 @@
+{
+  "name": "git-ape-aws-skills",
+  "description": "AWS service skills plugin for Git-Ape. Provides 21 AWS skills covering compute, storage, databases, networking, security, messaging, AI, and cost estimation — ready to install into any Git-Ape enabled repository.",
+  "version": "1.0.0",
+  "author": {
+    "name": "Microsoft",
+    "url": "https://github.com/Azure/git-ape"
+  },
+  "homepage": "https://github.com/Azure/git-ape",
+  "repository": "https://github.com/Azure/git-ape",
+  "license": "MIT",
+  "keywords": [
+    "aws",
+    "cloud",
+    "lambda",
+    "s3",
+    "ec2",
+    "ecs",
+    "eks",
+    "dynamodb",
+    "cloudformation",
+    "iam",
+    "api-gateway",
+    "bedrock",
+    "cost-estimation",
+    "security"
+  ],
+  "prerequisites": {
+    "tools": {
+      "aws": ">=2.0"
+    },
+    "plugins": {
+      "git-ape": ">=0.0.1"
+    }
+  },
+  "skills": "skills/"
+}

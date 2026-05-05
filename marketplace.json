@@ -1,0 +1,128 @@
+{
+  "name": "git-ape-aws-skills",
+  "owner": {
+    "name": "Microsoft",
+    "url": "https://github.com/Azure/git-ape"
+  },
+  "metadata": {
+    "description": "AWS service skills for Git-Ape — 21 skills covering Lambda, S3, EC2, ECS, EKS, DynamoDB, IAM, CloudFormation, API Gateway, Bedrock, and more. Install to extend Git-Ape with full AWS resource management capabilities.",
+    "version": "1.0.0",
+    "category": "cloud-provider",
+    "tags": ["aws", "multi-cloud", "migration"]
+  },
+  "plugins": [
+    {
+      "name": "git-ape-aws-skills",
+      "description": "AWS service skills plugin — compute, storage, databases, networking, security, messaging, AI, and cost estimation for AWS resources.",
+      "version": "1.0.0",
+      "source": "."
+    }
+  ],
+  "skills": [
+    {
+      "name": "aws-api-gateway",
+      "description": "AWS API Gateway for REST and HTTP API management",
+      "category": "networking"
+    },
+    {
+      "name": "aws-bedrock",
+      "description": "AWS Bedrock foundation models for generative AI",
+      "category": "ai"
+    },
+    {
+      "name": "aws-cloudformation",
+      "description": "AWS CloudFormation infrastructure as code for stack management",
+      "category": "iac"
+    },
+    {
+      "name": "aws-cloudwatch",
+      "description": "AWS CloudWatch monitoring for logs, metrics, alarms, and dashboards",
+      "category": "monitoring"
+    },
+    {
+      "name": "aws-cognito",
+      "description": "AWS Cognito user authentication and authorization",
+      "category": "security"
+    },
+    {
+      "name": "aws-cost-estimator",
+      "description": "Estimate monthly costs for AWS resources using the AWS Pricing API",
+      "category": "cost"
+    },
+    {
+      "name": "aws-dynamodb",
+      "description": "AWS DynamoDB NoSQL database for scalable data storage",
+      "category": "database"
+    },
+    {
+      "name": "aws-ec2",
+      "description": "AWS EC2 virtual machine management for instances, AMIs, and networking",
+      "category": "compute"
+    },
+    {
+      "name": "aws-ecs",
+      "description": "AWS ECS container orchestration for running Docker containers",
+      "category": "compute"
+    },
+    {
+      "name": "aws-eks",
+      "description": "AWS EKS Kubernetes management for clusters, node groups, and workloads",
+      "category": "compute"
+    },
+    {
+      "name": "aws-eventbridge",
+      "description": "AWS EventBridge serverless event bus for event-driven architectures",
+      "category": "messaging"
+    },
+    {
+      "name": "aws-iam",
+      "description": "AWS Identity and Access Management for users, roles, policies, and permissions",
+      "category": "security"
+    },
+    {
+      "name": "aws-lambda",
+      "description": "AWS Lambda serverless functions for event-driven compute",
+      "category": "compute"
+    },
+    {
+      "name": "aws-naming-research",
+      "description": "Research AWS resource naming conventions and constraints",
+      "category": "governance"
+    },
+    {
+      "name": "aws-rds",
+      "description": "AWS RDS relational database service for managed databases",
+      "category": "database"
+    },
+    {
+      "name": "aws-s3",
+      "description": "AWS S3 object storage for bucket management and access control",
+      "category": "storage"
+    },
+    {
+      "name": "aws-secrets-manager",
+      "description": "AWS Secrets Manager for secure secret storage and rotation",
+      "category": "security"
+    },
+    {
+      "name": "aws-security-analyzer",
+      "description": "Analyze CloudFormation templates against security best practices",
+      "category": "security"
+    },
+    {
+      "name": "aws-sns",
+      "description": "AWS SNS notification service for pub/sub messaging",
+      "category": "messaging"
+    },
+    {
+      "name": "aws-sqs",
+      "description": "AWS SQS message queue service for decoupled architectures",
+      "category": "messaging"
+    },
+    {
+      "name": "aws-step-functions",
+      "description": "AWS Step Functions workflow orchestration with state machines",
+      "category": "compute"
+    }
+  ]
+}
