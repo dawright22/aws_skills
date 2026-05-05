@@ -25,7 +25,7 @@ copilot plugin list   # Should show: git-ape@aws_skills
 /plugin marketplace add dawright22/aws_skills
 
 # Install it into your workspace
-/plugin install dawright22/aws_skills
+/plugin install git-ape-aws-skills@git-ape-aws-skills
 
 # Verify installation
 /plugin list
