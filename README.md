@@ -4,23 +4,47 @@
 
 Extends Git-Ape with **21 AWS skills** covering compute, storage, databases, networking, security, messaging, AI, and cost estimation.
 
+**Repository:** https://github.com/dawright22/aws_skills
+
 ## Install
 
-### Via Copilot Plugin Marketplace (Recommended)
+### Option 1: Copilot Plugin Marketplace (Recommended)
 
 ```bash
-copilot plugin marketplace add Azure/git-ape/aws_skills
+copilot plugin marketplace add dawright22/aws_skills
 copilot plugin install git-ape-aws-skills
 ```
 
-### Via Shell Script
+### Option 2: Clone and Install
 
 ```bash
-# From the aws_skills directory, targeting a Git-Ape repo
-./install.sh /path/to/your-git-ape-repo
+# Clone the plugin repository
+git clone https://github.com/dawright22/aws_skills.git
 
-# Or from within a Git-Ape repo
-/path/to/aws_skills/install.sh .
+# Run the install script, targeting your Git-Ape repo
+cd aws_skills
+./install.sh /path/to/your-git-ape-repo
+```
+
+### Option 3: Download and Install
+
+```bash
+# Download the latest release
+curl -L https://github.com/dawright22/aws_skills/archive/refs/heads/main.zip -o aws_skills.zip
+unzip aws_skills.zip
+cd aws_skills-main
+
+# Install into your Git-Ape repo
+./install.sh /path/to/your-git-ape-repo
+```
+
+### Option 4: Manual Copy
+
+```bash
+# Clone into your Git-Ape repo's skills directory directly
+git clone https://github.com/dawright22/aws_skills.git /tmp/aws_skills
+cp -r /tmp/aws_skills/skills/aws-* /path/to/your-git-ape-repo/.github/skills/
+rm -rf /tmp/aws_skills
 ```
 
 ## Uninstall
@@ -29,8 +53,11 @@ copilot plugin install git-ape-aws-skills
 # Via marketplace
 copilot plugin uninstall git-ape-aws-skills
 
-# Via shell script
+# Via shell script (tracks what was installed for clean removal)
 ./uninstall.sh /path/to/your-git-ape-repo
+
+# Manual: remove all aws-* skill directories
+rm -rf /path/to/your-git-ape-repo/.github/skills/aws-*
 ```
 
 ## Included Skills
@@ -99,4 +126,4 @@ aws_skills/
 
 ## License
 
-MIT — see [LICENSE](../LICENSE) in the root repository.
+MIT
