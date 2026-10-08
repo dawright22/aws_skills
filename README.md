@@ -76,6 +76,7 @@ copilot plugin uninstall dawright22/aws_skills
 | `aws-sns` | Messaging | Pub/sub notification service |
 | `aws-sqs` | Messaging | Message queue service |
 | `aws-step-functions` | Compute | Workflow orchestration with state machines |
+| `aws-strict-drift-detection` | Operations | Deep, severity-ranked drift detection on top of CloudFormation's native drift detection |
 
 ## Prerequisites
 

@@ -123,6 +123,11 @@
       "name": "aws-step-functions",
       "description": "AWS Step Functions workflow orchestration with state machines",
       "category": "compute"
+    },
+    {
+      "name": "aws-strict-drift-detection",
+      "description": "Deep, severity-ranked drift detection layered on CloudFormation's native stack drift detection, plus tag-based coverage for unmanaged resources",
+      "category": "operations"
     }
   ]
 }
